@@ -1,0 +1,113 @@
+proxies:
+  - name: ava.game.naver.com
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: df.game.naver.com
+    server: df.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: account.pmang.game.naver.com
+    server: account.pmang.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: care.pmang.game.naver.com
+    server: care.pmang.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: investor.fb.com
+    server: investor.fb.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: investor.mt.com
+    server: investor.mt.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
+  - name: investor.atmeta.com
+    server: investor.atmeta.com
+    port: 443
+    type: vmess
+    uuid: 6523c535-d167-4cd1-9c7d-7fa8a3620787
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dor.bist.biz.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: dor.bist.biz.id
+    udp: true
